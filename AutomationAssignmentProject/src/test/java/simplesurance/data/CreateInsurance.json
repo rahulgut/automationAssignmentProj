@@ -1,0 +1,34 @@
+[
+    {
+        "username": "testsellingpartner2@simplesurance.de",
+        "password": "TestSellingPartner2Pass",
+        "country": "Estonia",
+        "serialNum": "12134",
+        "firstName": "Steve",
+        "lastName": "Cooper",
+        "email": "stevecooper@gm.com",
+        "streetName": "Third Street",
+        "houseNum": "12",
+        "postalCode": "10178",
+        "city": "Berlin",
+        "countryCode": "ES",
+        "directDebitCard": "DE89370400440532013000",
+        "creditCard": "4242424242424242"
+    },
+    {
+        "username": "testsellingpartner2@simplesurance.de",
+        "password": "TestSellingPartner2Pass",
+        "country": "Greece",
+        "serialNum": "98765",
+        "firstName": "Harley",
+        "lastName": "Spector",
+        "email": "harleyspector@gm.com",
+        "streetName": "Fifth Avenue Street",
+        "houseNum": "142",
+        "postalCode": "17654",
+        "city": "New York",
+        "countryCode": "US",
+        "directDebitCard": "DE89370400440532013000",
+        "creditCard": "4242424242424242"
+    }
+]

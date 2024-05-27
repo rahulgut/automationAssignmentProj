@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-27T19:24:56 CEST" name="Suite" finished-at="2024-05-27T19:25:40 CEST" duration-ms="44162">
+    <groups>
+      <group name="CreatePolicy">
+        <method signature="CreateSinglePolicyTest.createPolicy(java.util.HashMap)[pri:0, instance:simplesurance.tests.CreateSinglePolicyTest@58d75e99]" name="createPolicy" class="simplesurance.tests.CreateSinglePolicyTest"/>
+      </group> <!-- CreatePolicy -->
+    </groups>
+    <test started-at="2024-05-27T19:24:56 CEST" name="Import CSV to create Multiple Policy Test" finished-at="2024-05-27T19:25:02 CEST" duration-ms="5888">
+      <class name="simplesurance.tests.MultiplePolicyCSVTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:simplesurance.tests.MultiplePolicyCSVTest@41a0aa7d]" started-at="2024-05-27T19:24:56 CEST" name="launchApplication" finished-at="2024-05-27T19:25:00 CEST" duration-ms="3792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="createMultiplePolicyCSV()[pri:0, instance:simplesurance.tests.MultiplePolicyCSVTest@41a0aa7d]" started-at="2024-05-27T19:25:00 CEST" name="createMultiplePolicyCSV" finished-at="2024-05-27T19:25:02 CEST" duration-ms="1809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultiplePolicyCSV -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:simplesurance.tests.MultiplePolicyCSVTest@41a0aa7d]" started-at="2024-05-27T19:25:02 CEST" name="tearDown" finished-at="2024-05-27T19:25:02 CEST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- simplesurance.tests.MultiplePolicyCSVTest -->
+    </test> <!-- Import CSV to create Multiple Policy Test -->
+    <test started-at="2024-05-27T19:24:56 CEST" name="Listing functionality Test" finished-at="2024-05-27T19:25:02 CEST" duration-ms="5888">
+      <class name="simplesurance.tests.ListingFunctionalityTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:simplesurance.tests.ListingFunctionalityTest@6c1a5b54]" started-at="2024-05-27T19:24:56 CEST" name="launchApplication" finished-at="2024-05-27T19:25:00 CEST" duration-ms="3792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="listingVerify()[pri:0, instance:simplesurance.tests.ListingFunctionalityTest@6c1a5b54]" started-at="2024-05-27T19:25:00 CEST" name="listingVerify" finished-at="2024-05-27T19:25:02 CEST" duration-ms="1943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listingVerify -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:simplesurance.tests.ListingFunctionalityTest@6c1a5b54]" started-at="2024-05-27T19:25:02 CEST" name="tearDown" finished-at="2024-05-27T19:25:02 CEST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- simplesurance.tests.ListingFunctionalityTest -->
+    </test> <!-- Listing functionality Test -->
+    <test started-at="2024-05-27T19:24:56 CEST" name="Create Single Policy Test" finished-at="2024-05-27T19:25:40 CEST" duration-ms="44162">
+      <class name="simplesurance.tests.CreateSinglePolicyTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:simplesurance.tests.CreateSinglePolicyTest@58d75e99]" started-at="2024-05-27T19:24:56 CEST" name="launchApplication" finished-at="2024-05-27T19:25:00 CEST" duration-ms="3683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="createPolicy(java.util.HashMap)[pri:0, instance:simplesurance.tests.CreateSinglePolicyTest@58d75e99]" started-at="2024-05-27T19:25:00 CEST" name="createPolicy" data-provider="getData" finished-at="2024-05-27T19:25:13 CEST" duration-ms="12603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=Estonia, lastName=Cooper, serialNum=12134, city=Berlin, postalCode=10178, firstName=Steve, password=TestSellingPartner2Pass, streetName=Third Street, countryCode=ES, directDebitCard=DE89370400440532013000, creditCard=4242424242424242, email=stevecooper@gm.com, houseNum=12, username=testsellingpartner2@simplesurance.de}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPolicy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:simplesurance.tests.CreateSinglePolicyTest@58d75e99]" started-at="2024-05-27T19:25:13 CEST" name="tearDown" finished-at="2024-05-27T19:25:13 CEST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:simplesurance.tests.CreateSinglePolicyTest@58d75e99]" started-at="2024-05-27T19:25:13 CEST" name="launchApplication" finished-at="2024-05-27T19:25:15 CEST" duration-ms="1885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="createPolicy(java.util.HashMap)[pri:0, instance:simplesurance.tests.CreateSinglePolicyTest@58d75e99]" started-at="2024-05-27T19:25:15 CEST" name="createPolicy" data-provider="getData" finished-at="2024-05-27T19:25:26 CEST" duration-ms="11728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=Greece, lastName=Spector, serialNum=98765, city=New York, postalCode=17654, firstName=Harley, password=TestSellingPartner2Pass, streetName=Fifth Avenue Street, countryCode=US, directDebitCard=DE89370400440532013000, creditCard=4242424242424242, email=harleyspector@gm.com, houseNum=142, username=testsellingpartner2@simplesurance.de}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPolicy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:simplesurance.tests.CreateSinglePolicyTest@58d75e99]" started-at="2024-05-27T19:25:26 CEST" name="tearDown" finished-at="2024-05-27T19:25:27 CEST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:simplesurance.tests.CreateSinglePolicyTest@58d75e99]" started-at="2024-05-27T19:25:27 CEST" name="launchApplication" finished-at="2024-05-27T19:25:28 CEST" duration-ms="1880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="createPolicyError()[pri:0, instance:simplesurance.tests.CreateSinglePolicyTest@58d75e99]" started-at="2024-05-27T19:25:28 CEST" name="createPolicyError" finished-at="2024-05-27T19:25:40 CEST" duration-ms="11949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPolicyError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:simplesurance.tests.CreateSinglePolicyTest@58d75e99]" started-at="2024-05-27T19:25:40 CEST" name="tearDown" finished-at="2024-05-27T19:25:40 CEST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- simplesurance.tests.CreateSinglePolicyTest -->
+    </test> <!-- Create Single Policy Test -->
+  </suite> <!-- Suite -->
+</testng-results>
